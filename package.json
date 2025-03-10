@@ -1,0 +1,36 @@
+{
+  "name": "hackfy-cyber-chetana-admin-pannel-backned",
+  "version": "1.0.0",
+  "description": "npm in it -y  npm i typescript  npm i -D typescript  npx tsc --init  npm i express  delcaration file like    add a file like mtype kya he   npm install @types/express    // This commans is turn i9n javascript to typoescripp;y to express libaraery  npm i jsonwebtoken  npm i @types/jsonwebtoken  build script \"build\":\"tsc -b\",  and start script this commands are working on compile to type script code turn in to javascript    \"start\" : \"node dist/index.js\"    and als0o mdev scrit \"dev\" : \"nodemon src/index.ts\", \"npm run build && npm run start",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/index.js",
+    "dev": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manojseetaram/hacfy-cyber-chetana-adminpanel-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manojseetaram/hacfy-cyber-chetana-adminpanel-backend/issues"
+  },
+  "homepage": "https://github.com/Manojseetaram/hacfy-cyber-chetana-adminpanel-backend#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.13.10",
+    "@types/nodemailer": "^6.4.17",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "nodemailer": "^6.10.0"
+  }
+}
